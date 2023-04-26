@@ -42,7 +42,7 @@ const RightBlock = ({
                         color={item.color}
                         fixedWidth={true}
                         // onClick={() => scrollTo("about")}
-                        onClick={() => window.open("https://microdose-client.vercel.app/")}
+                        onClick={() => window.open("#")}
                       >
                         {t(item.title)}
                       </Button>
